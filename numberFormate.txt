@@ -9,3 +9,4 @@ millians =121.M
 
 ----------------------------------
 {stakingDetails.staked?.toLocaleString() == ' ' || null ?  '0.0000' : stakingDetails.staked?.toLocaleString()}
+now={pjctInfo?.percentageOfSuppliedTokens?.toString().slice(0, 3)}
